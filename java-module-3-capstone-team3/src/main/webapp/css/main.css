@@ -1,0 +1,134 @@
+body {
+	background-image: url("./cloud.gif");
+background-size: cover;
+font-family: 'Catamaran', sans-serif;font-size: 1.5rem;
+
+}
+
+.row {
+	margin-top: 15px;
+    margin-bottom: 15px;
+  
+    padding: 10px;
+}
+
+.ParkContent .row {
+  border:.25rem inset silver;
+  background: silver;
+  border-radius: 15px;
+text-shadow: .75rem .75rem .5rem grey;
+
+}
+.parksdiv .img-fluid{
+	border:.25rem inset black;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;  
+}
+
+#Cimg{
+
+	border:.25rem inset black;
+}
+
+#parkImg{
+border: .25rem inset black;
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;  	
+width:100%;
+}
+
+.navbar{
+	border:.25rem outset black;
+
+}
+
+
+
+
+.jumbotron{
+	border: .25rem outset black;
+
+	background: linear-gradient(to left, white, lightgrey, grey,lightgrey, white);
+}
+
+#logo {
+	border: .25rem inset black;
+
+	width: 30%;
+	position: absolute;
+	background: lightgrey;
+	margin: 0px;
+	padding: 0px;
+	z-index: 0;
+	left: 0;
+	bottom: 25%;
+}
+
+.contents {
+	margin-top: 250px;
+}
+
+nav {
+	padding: 0px;
+	margin: 0px;
+}
+
+#headerImg {
+	background-image: url("./logo.png");
+	background-position: center;
+	height: 10rem;
+	margin-left: 0px;
+	margin-right: 0px;
+	background-repeat: no-repeat;
+	background-size: 55%;
+}
+
+.weather img {
+	width: 6rem;
+}
+
+.weather {
+	background: white;
+	border-radius: 15px;
+	margin: 5px;
+	padding: 10px;
+}
+
+.weatherContent {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.info {
+	background: white;
+	border-radius: 15px;
+	padding: 10px;
+	margin: 5px;
+}
+
+.parkInfo {
+	margin-bottom: 5px;
+}
+
+.carousel-item img {
+	border-radius: 50%;
+}
+
+#fixedHead {
+	background: #cc7a00;
+}
+
+#parkQuote {
+	padding: 80px 0;
+}
+
+#parkName {
+	text-align: center;
+}
+
+#weatherHead {
+	text-align: center;
+	font-weight: 700;
+}
